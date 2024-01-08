@@ -1,6 +1,6 @@
 import 'package:mark/mark.dart';
-import 'package:purple_starter/src/core/di/shared_parent.dart';
-import 'package:purple_starter/src/core/logic/identity_logging_mixin.dart';
+import 'package:flutter_starter/src/core/di/shared_parent.dart';
+import 'package:flutter_starter/src/core/logic/identity_logging_mixin.dart';
 import 'package:typed_preferences/typed_preferences.dart';
 
 const String _successfully = 'successfully';

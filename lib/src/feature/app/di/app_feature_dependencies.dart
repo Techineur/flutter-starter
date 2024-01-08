@@ -1,5 +1,5 @@
-import 'package:purple_starter/src/core/di/shared_parent.dart';
-import 'package:purple_starter/src/feature/app/router/logger_navigator_observer.dart';
+import 'package:flutter_starter/src/core/di/shared_parent.dart';
+import 'package:flutter_starter/src/feature/app/router/logger_navigator_observer.dart';
 
 abstract class AppFeatureDependencies
     implements LoggerNavigationObserverDependencies {}

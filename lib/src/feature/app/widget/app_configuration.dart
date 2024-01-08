@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:purple_starter/src/core/extension/extensions.dart';
-import 'package:purple_starter/src/core/gen/l10n/app_localizations.g.dart';
-import 'package:purple_starter/src/core/router/app_router.dart';
-import 'package:purple_starter/src/feature/app/widget/app_router_builder.dart';
-import 'package:purple_starter/src/feature/settings/widget/scope/settings_scope.dart';
+import 'package:flutter_starter/src/core/extension/extensions.dart';
+import 'package:flutter_starter/src/core/gen/l10n/app_localizations.g.dart';
+import 'package:flutter_starter/src/core/router/app_router.dart';
+import 'package:flutter_starter/src/feature/app/widget/app_router_builder.dart';
+import 'package:flutter_starter/src/feature/settings/widget/scope/settings_scope.dart';
 
 class AppConfiguration extends StatelessWidget {
   const AppConfiguration({

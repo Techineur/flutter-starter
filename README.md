@@ -1,4 +1,4 @@
-# purple_starter
+# flutter_starter
 
 ## Overview
 

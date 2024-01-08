@@ -1,4 +1,4 @@
-name: purple_starter
+name: flutter_starter
 description: A fresh Flutter project created using Purple Starter.
 
 publish_to: 'none'
@@ -20,7 +20,7 @@ dependencies:
   # System
   path_provider: ^2.0.0
   path: ^1.8.0
-  platform_info: ^3.1.0
+  platform_info: ^4.0.2
 
   # Data manipulation
   pure: ^0.2.0
@@ -44,13 +44,13 @@ dependencies:
   select_annotation: ^0.2.0
 
   # Internationalization
-  intl: ^0.17.0
+  intl: ^0.18.1
   flutter_localizations:
     sdk: flutter 
 
   # Logging
-  mark: ^0.2.0
-  sentry_flutter: ^6.2.2
+  mark: ^0.3.0
+  sentry_flutter: ^7.14.0
   stack_trace: ^1.10.0
 
   # Persistance
@@ -64,22 +64,21 @@ dependencies:
   retrofit: ^4.0.1
 
   # Navigation
-  auto_route: ^5.0.1
+  auto_route: ^7.8.4
 
 dev_dependencies:
   # Analyzer extensions
-  dart_code_metrics: ^5.5.1
   purple_metrics_lints: ^0.5.0
 
   # Utils
-  flutter_launcher_icons: ^0.12.0
+  flutter_launcher_icons: ^0.13.1
   flutter_native_splash: ^2.0.5
 
   # Code generation
   build_runner: ^2.1.7
-  auto_route_generator: ^5.0.2
+  auto_route_generator: ^7.3.2
   select: ^0.4.1
-  retrofit_generator: ^6.0.0+1
+  retrofit_generator: ^8.0.6
   drift_dev: ^2.5.2
   freezed: ^2.1.0+1
   json_serializable: ^6.1.4
