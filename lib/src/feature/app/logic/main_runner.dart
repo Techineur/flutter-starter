@@ -75,6 +75,7 @@ mixin MainRunner {
         initialized: (state) {
           terminate();
           Future<void>(() => hooks?.onInitialized(state));
+          WidgetsFlutterBinding.ensureInitialized();
           runApp(
             DefaultAssetBundle(
               bundle: SentryAssetBundle(),
@@ -103,7 +104,6 @@ mixin MainRunner {
     required AppBuilder appBuilder,
     InitializationHooks? hooks,
   }) {
-    WidgetsFlutterBinding.ensureInitialized();
     final logger = Logger(
       processors: [
         PrettyEphemeralMessageProcessor(),

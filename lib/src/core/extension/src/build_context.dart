@@ -7,7 +7,6 @@ import 'package:flutter_starter/src/core/gen/l10n/app_localizations.g.dart';
 extension BuildContextX on BuildContext {
   AppDependencies get _appDependencies => NodeScope.of<AppDependencies>(
         this,
-        listen: true,
       );
 
   CoreDependencies get coreDependencies => _appDependencies.core;

@@ -8,7 +8,8 @@ class AppRouter extends _$AppRouter {
   @override
   RouteType get defaultRouteType => const RouteType.material();
   @override
-  List<AutoRoute> get routes => [AutoRoute(page: PlaceholderRoute.page)];
+  List<AutoRoute> get routes =>
+      [AutoRoute(page: PlaceholderRoute.page, initial: true)];
 }
 
 @RoutePage()
