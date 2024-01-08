@@ -4,7 +4,7 @@ first-run: prepare run
 
 splash: pub-get
 	@echo "* Generating Splash screens *"
-	@fvm flutter pub run flutter_native_splash:create
+	@fvm flutter pub run flutter_launcher_icons
 
 # Prepares the application for the first run.
 #
